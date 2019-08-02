@@ -1,0 +1,17 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  image: ruby:2.6
+  tags: ['docker']
+  script:
+    - apt-get update -yqqq
+    - bundle install --path vendor
+    - bundle exec rake build
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+  except:
+  - schedules
