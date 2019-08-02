@@ -1,0 +1,276 @@
+$color-white: #fff;
+$color-white-alt: #d9ccff;
+$color-transparent: rgba(0, 0, 0, 0);
+$color-transparent-alt: rgba(0, 0, 0, .1);
+$color-transparent-alt-darken: rgba(0, 0, 0, .2);
+$color-transparent-alt-light: rgba(0, 0, 0, .05);
+$color-transparent-alt-dark: rgba(0, 0, 0, .8);
+$color-transparent-white: rgba(255, 255, 255, 0);
+$color-transparent-white-alt: rgba(255, 255, 255, .75);
+$color-white-rad-event: #fafafa;
+$color-dark: #000;
+$color-gray: #828282;
+$color-gray-darken: #737373;
+$color-gray-medium: #ddd;
+$color-gray-light: #aaa;
+$color-gray-extra-light: #e7e7e7;
+$color-gray-extra-light-alt: #f2f2f2;
+$color-gray-features: #5d5d5d;
+$color-gray-dark: #2e2e2e;
+$color-blue: #4887c5;
+$color-green: #18be97;
+$color-red: #f00;
+$color-black: #000;
+$color-orange: #f07328;
+$color-orange-bold: #f46027;
+$color-light-blue: #85beff;
+$color-light-purple: #baa5ff;
+$color-yellow: #fcf113;
+$color-bronze: #d36318;
+$color-slate: #88afc1;
+$color-dark-blue: #241842;
+
+// just commit campaign colors
+$just-commit-bg: #1c1635;
+$just-commit-bg75: rgba(28, 22, 53, .75);
+$just-commit-light: #9795f9;
+$just-commit-medium: #6262cc;
+$just-commit-dark: #3f3177;
+$just-commit-text: rgba(255, 255, 255, .7);
+$just-commit-grid-cover: linear-gradient(-90deg, transparent 0%, $just-commit-bg75 46%, $just-commit-bg 100%);
+
+$color-gl-green: #31af64;
+$color-gl-red: #e24329;
+
+$color-primary: #548;
+$color-primary-dark: #4a3b77;
+$color-primary-alt: #6b4fbb;
+$color-primary-medium: #503991;
+$color-primary-medium-alt: #6753a0;
+$color-primary-dark: #403368;
+$color-secondary: #e14329;
+$color-secondary-alt: #fba225;
+$color-accent: #e65328;
+$color-accent-alt: #c93d2b;
+$color-accent-light: #d2d6de;
+$color-twitter: #4099ff;
+
+$text-color-light: #444;
+
+$divider-color: #d3d3d3;
+$link-color: #6b4fbb;
+$link-code-color: rgb(107, 79, 187);
+$border-color: #dfdfdf;
+$header-text-light-color: #a69ebd;
+
+$team-content-color: #999;
+$member-name-color: #333;
+$member-shadow-color: #ccc;
+$member-social-color: #ccc;
+
+$transition-primary: .2s cubic-bezier(0, 0, 0, 1);
+$transition-primary-longer: .4s cubic-bezier(0, 0, 0, 1);
+
+$modal-overlay-color: rgba(22, 22, 22, .8);
+
+$blog-color-text: #222;
+$blog-color-note: #666;
+$blog-color-heading: #fff;
+$blog-color-purple: rgb(107, 79, 187);
+$blog-color-mk-border: #ddd;
+$blog-color-date: #888;
+$blog-color-overlay-border: #eee;
+$blog-color-border-shadow: rgba(0, 0, 0, .1);
+$blog-color-image-from: rgba(0, 0, 0, 0);
+$blog-color-image-to: rgba(0, 0, 0, .8);
+$blog-color-ipanel-heading: rgba(221, 221, 221, .5);
+$blog-color-legacy-image-from: rgba(85, 68, 136, .8);
+$blog-color-legacy-image-to: rgba(72, 135, 197, .92);
+$blog-color-category-nav: #5b5b5b;
+
+$release-manager-list-bg: #403366;
+$release-manager-table-border: #584985;
+$release-manager-table-header-color: #9583c9;
+$release-manager-current-table-data-color: #ff9;
+
+$mvp-list-bg: #403366;
+$mvp-table-border: #584985;
+$mvp-table-header-color: #9583c9;
+
+$landing-community-bg: #34373c;
+$landing-organization-color: #d7d7d7;
+
+$downloads-btn-color: #7769a0;
+$downloads-btn-hover-color: #403366;
+$downloads-code-color: #403366;
+$downloads-step-link-color: #ffb800;
+$downloads-step-color: #e3dcf7;
+
+$contact-color: #bbb4cf;
+$contact-btn-bg: #887ab6;
+
+$consultancy-bg-color: #272120;
+
+$gs-btn-bg: #129bee;
+$gs-btn-hover-bg: #6144b8;
+
+$applications-title-color: #373737;
+$applications-app-shadow-color: #e0e0e0;
+
+$link-box-color: #333;
+$link-box-border-color: #7863b6;
+$link-box-hover-bg: #f4f0ff;
+$light-blue-bg: #f5f7fb;
+
+$pricing-primary: #129bee;
+$subscription-header-bg: #444;
+$subs-header-color: #242424;
+$subs-header-sub-color: #979797;
+$subs-header-hr-color: #d4d4d4;
+$pricing-header-color-to: #4887c5;
+$pricing-gray-bg: #fafafa;
+
+$blueish-gray: #a1a1a2;
+
+$dropdown-text-color: #626262;
+$dropdown-caret-color: #c4c4c4;
+$dropdown-border-color: #eaeaea;
+$dropdown-focus-color: #c4c4c4;
+$dropdown-hover-color: #f7faff;
+
+$dropdown-filter-border-color: rgba(0, 0, 0, .1);
+$dropdown-fa-color: #c7c7c7;
+$dropdown-fa-focus-color: #555;
+
+$formula-variable-bg: #f9f9f9;
+$formula-text-color: #9d9d9d;
+$formula-value-color: #444;
+
+// Bootstrap overrides
+$breadcrumb-separator: ">";
+$breadcrumb-bg: darken($color-white, 2%);
+
+$container-large-desktop: 1200px;
+
+$body-bg: #f9f9f9;
+
+$font-family-sans-serif: "Source Sans Pro", sans-serif;
+$font-family-serif: "Roboto Slab", serif;
+$font-family-icon: FontAwesome;
+$font-property-value-icon: normal normal normal 14px / 1 $font-family-icon;
+$border-radius-large: 3px;
+$border-radius-xl: 8px;
+$border-radius-circle: 1000px;
+$border-color: #d7d7d7;
+
+$grid-float-breakpoint: 992px;
+$screen-sm-min: 768px;
+$screen-macbook: 1441px;
+
+$navbar-default-bg: #fff;
+$navbar-default-toggle-icon-bar-bg: $color-primary;
+$navbar-default-link-color: #8c929d;
+$navbar-default-link-hover-color: $color-primary;
+$navbar-default-link-active-color: $color-primary;
+$navbar-default-link-active-bg: transparent;
+$navbar-default-border: $border-color;
+$navbar-height: 58px;
+
+$dropdown-bg: #fff;
+$dropdown-border: #e5e5e5;
+$dropdown-link-color: #888;
+$dropdown-link-hover-color: #fa7035;
+$dropdown-link-hover-bg: transparent;
+
+$search-input-font-color: #333;
+$search-border-color: #bcbcbc;
+$input-padding: 12px 18px;
+$input-padding-large: 18px 24px;
+
+$reseller-divider-color: $border-color;
+$reseller-hero-bg-color: #35393d;
+$reseller-hero-content-color: $color-gray-extra-light;
+$reseller-category-active-background-color: rgba(255, 255, 255, .4);
+
+$applications-search-box-shadow-color: rgba($color-dark, .5);
+$box-shadow: 0 2px 4px $color-transparent-alt;
+$box-shadow-darken: 0 2px 4px $color-transparent-alt-darken;
+$box-shadow-medium: 0 10px 20px $color-transparent-alt;
+$box-shadow-large: 0 20px 40px $color-transparent-alt;
+
+$gitlab-live-gradient-dark: #0a021e;
+$gitlab-live-gradient-light: #251b3f;
+$features-gradient-end: rgba(148, 149, 150, 1);
+$features-gradient-begin: rgba(0, 0, 0, .91);
+$features-semi-transparent-white: rgba(255, 255, 255, .15);
+$features-semi-transparent-gray: rgba(180, 180, 180, .15);
+$features-semi-transparent-gray-link: rgba(180, 180, 180, .50);
+$features-semi-transparent-black: rgba(12, 12, 12, .47);
+$features-semi-transparent-purple: rgba(107, 79, 187, .50);
+$features-barely-transparent-white: rgba(255, 255, 255, .75);
+$features-gray-light-barely-transparent: rgba(170, 170, 170, .5);
+$features-gallery-background-gradient-begin: #6b4fbb;
+$features-gallery-background-gradient-middle: #5942a0;
+$features-gallery-background-gradient-end: #42327a;
+$features-gallery-alt-description-black: rgba(0, 0, 0, .7);
+
+$ee-standalone-primary-background-gradient: linear-gradient(to right, $color-primary-alt 0%, $features-gallery-background-gradient-middle 40%, $features-gallery-background-gradient-end 100%);
+$ee-standalone-hero-background-top: rgba(52, 55, 60, .85);
+$ee-standalone-hero-background-top-darker: rgba(52, 55, 60, .9);
+$ee-standalone-hero-background-gradient: linear-gradient(to bottom, $ee-standalone-hero-background-top, $landing-community-bg 85%);
+$facebook-bg: #3b5998;
+$facebook-blue: #3b5998;
+$twitter-bg: #55acee;
+$twitter-blue: #4099ff;
+$linkedin-bg: #007bb5;
+$dropdown-events-text-color: #626262;
+$reddit-red: #ff4500;
+
+// features pages
+// purple title container gradient
+$purple-section-gradient-from: #654ca7;
+$purple-section-gradient-to: #3c257b;
+$hero-gradient-light: #48367d;
+$hero-gradient: linear-gradient(270deg, $hero-gradient-light 0%, $color-dark-blue 100%);
+
+// orange container gradient
+$orange-section-gradient-from: #e24329;
+$orange-section-gradient-to: #fca226;
+
+// form submission confirmation
+$form-confirm-background: #f1fdf6;
+$form-confirm-border: #1aaa55;
+$form-confirm-color: #168f48;
+
+$wordmark-text-color: $color-white;
+$wordmark-secondary-text-color: #ccc;
+$what-is-bg: #33373c;
+$steps-bg: $color-white;
+$steps-border-color: #d7d7d7;
+$steps-link-color: $color-primary-alt;
+
+// issue bash pages
+$bash-label-border-color: #808080;
+
+// Federal landing site
+$point-title-color: #6b4fb9;
+
+$product-ce: #5faa70;
+$product-ees: #59a8de;
+$product-eep: #1f78b9;
+$product-eeu: #0f3b66;
+$product-coming-soon: #f5a623;
+
+$color-self-managed-accent: #fa7035;
+$color-saas-accent: #fba438;
+$color-blue-link: #2e87e0;
+
+$spacing-unit-xs: 20px;
+$spacing-unit-sm: 40px;
+$spacing-unit-md: 60px;
+$spacing-unit-lg: 80px;
+$spacing-unit-xl: 120px;
+$grid-gutter-width-close: 20px;
+
+// Define aspect ratio sets (width: height)
+$aspect-ratio-map: (280: 200);

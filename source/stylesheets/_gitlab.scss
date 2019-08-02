@@ -1,0 +1,66 @@
+// sass-lint:disable no-important
+@mixin gitlab-styles($name, $background, $color) {
+  .gitlab-#{$name} {
+    color: $color !important;
+  }
+
+  .panel-gitlab-#{$name} {
+    border-color: rgba($background, .3);
+
+    > .panel-heading {
+      color: $color;
+      background-color: rgba($background, .3);
+      border-color: rgba($background, .3);
+    }
+  }
+
+  .alert-gitlab-#{$name} {
+    background-color: rgba($background, .3);
+    border-color: rgba($background, .3);
+    color: $color !important;
+  }
+}
+
+@include gitlab-styles("purple", $color-primary-alt, $color-primary-alt);
+@include gitlab-styles("orange", $color-secondary-alt, $color-secondary);
+
+.alert-webcast {
+  background-color: rgba($color-secondary-alt, .3);
+  border-color: rgba($color-secondary-alt, .3);
+  color: $color-secondary !important;
+  text-align: center;
+
+  a {
+    color: $color-primary-alt;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+}
+
+.text-center,
+.center {
+  twitterwidget {
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 18px 0 rgba($color-dark, .1), 0 6px 20px 0 rgba($color-dark, .09);
+  }
+}
+
+// sass-lint:enable no-important
+
+.panel-gitlab {
+  @include panel-variant($color-gray-light, $color-white, $color-primary-alt, $color-primary-alt);
+  border: 0;
+
+  .panel-heading {
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .panel-body {
+    border: 1px solid $landing-organization-color;
+    border-top: 0;
+  }
+}

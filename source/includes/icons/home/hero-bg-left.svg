@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="425px" height="772px" viewBox="0 0 425 772" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>toolchain-illo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="86.5327148%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#37256C" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#37256C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="homepage---hero" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.35">
+        <g id="homepage-hero-c-3" transform="translate(0.000000, -284.000000)">
+            <g id="toolchain-illo" transform="translate(0.000000, 284.000000)">
+                <rect id="Rectangle" stroke="#37256C" stroke-width="2" x="46" y="1" width="42" height="42" rx="10"></rect>
+                <rect id="Rectangle-Copy" stroke="#37256C" stroke-width="2" x="171" y="139" width="42" height="42" rx="10"></rect>
+                <rect id="Rectangle-Copy-4" stroke="#37256C" stroke-width="2" x="112" y="552" width="42" height="42" rx="10"></rect>
+                <rect id="Rectangle-Copy-5" stroke="#37256C" stroke-width="2" x="247" y="729" width="42" height="42" rx="10"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#37256C" stroke-width="2" x="23" y="303" width="42" height="42" rx="10"></rect>
+                <rect id="Rectangle-Copy-3" stroke="#37256C" stroke-width="2" x="382" y="231" width="42" height="42" rx="10"></rect>
+                <path d="M0,23.3554688 L34.4570313,23.3554688" id="Path-8" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M99.2645659,21.6640625 L181.9198,21.6640625 C187.442647,21.6640625 191.9198,26.141215 191.9198,31.6640625 L191.9198,128.0002" id="Path-9" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M225,159.988763 L393.839629,158.101774 C399.362132,158.040053 403.889039,162.466892 403.95076,167.989394 C403.951176,168.026644 403.951385,168.063897 403.951385,168.101149 L403.951385,219.988463" id="Path-10" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M65.6328125,54 L65.6328125,242.5375 C65.6328125,248.060347 70.109965,252.5375 75.6328125,252.5375 L370.195312,252.5375" id="Path-11" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M190.9198,191.9999 L190.9198,314 C190.9198,319.522847 186.442647,324 180.9198,324 L76.7602,324" id="Path-12" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M403.490669,284 L403.490669,563.4624 C403.490669,568.985247 399.013516,573.4624 393.490669,573.4624 L165,573.4624" id="Path-13" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M43.6601562,356 L43.6601562,739.542969 C43.6601562,745.065816 48.1373088,749.542969 53.6601562,749.542969 L236,749.542969" id="Path-14" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M101.0001,575.9459 L44.7851562,575.9459" id="Path-15" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+                <polyline id="Path-16" stroke="#37256C" stroke-width="4" stroke-linecap="round" points="159.21875 158 133 158 133 540.9998"></polyline>
+                <path d="M267.9198,717.796875 L267.9198,358.647 C267.9198,353.124153 272.396953,348.647 277.9198,348.647 L400.894985,348.647" id="Path" stroke="#37256C" stroke-width="4" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

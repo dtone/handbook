@@ -1,0 +1,40 @@
+.content-section {
+  margin-bottom: 80px;
+  font-size: 18px;
+  line-height: 1.55;
+
+  h3 {
+    line-height: 1.4;
+  }
+
+  .testimonial {
+
+    h3 {
+      color: $color-primary;
+    }
+
+    p {
+      color: $color-gray-light;
+    }
+
+  }
+
+  .testimonial-logo {
+    width: 120px;
+  }
+
+  a {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      color: $color-primary-alt;
+      text-decoration: underline;
+    }
+  }
+
+  .cta-btn {
+    text-decoration: none;
+  }
+}

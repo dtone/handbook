@@ -1,0 +1,16 @@
+%footer.footer
+  = partial "includes/logos/footer_logo.svg"
+  .animated.container
+    = partial "includes/layout/footer-social-media"
+
+- full_path = current_page.file_descriptor.relative_path
+.animated.text-center.source-link
+  Edit
+  = link_to('this page', "#{data.site.repo_site}#{data.site.repo_path}blob/master/source/#{full_path}", class: 'external-source-link')
+  &mdash; open
+  = link_to('Web IDE', "#{data.site.repo_site}-/ide/project/#{data.site.repo_path}edit/master/-/source/#{full_path}", class: 'external-source-link')
+  &mdash; please
+  = succeed('.') do
+    = link_to('contribute', "#{data.site.repo_site}#{data.site.repo_path}blob/master/CONTRIBUTING.md", class: 'external-source-link')
+  = partial "includes/cc-license"
+= partial "includes/layout/scripts"

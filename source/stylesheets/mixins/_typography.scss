@@ -1,0 +1,40 @@
+// Common Tokens (variables)
+$t-accent-font: "Source Sans Pro", sans-serif;
+$t-accent-font-with-fallback: "Source Sans Pro", sans-serif;
+
+// Mixins to isolate font weights
+@mixin accent-font-light {
+  font-family: $t-accent-font-with-fallback;
+  font-weight: 300;
+}
+
+@mixin accent-font-regular {
+  font-family: $t-accent-font-with-fallback;
+  font-weight: 400;
+}
+
+@mixin accent-font-bold {
+  font-family: $t-accent-font-with-fallback;
+  font-weight: 600;
+}
+
+@mixin accent-font-black {
+  font-family: $t-accent-font-with-fallback;
+  font-weight: 900;
+}
+
+@mixin font-weight-light {
+  font-weight: 300;
+}
+
+@mixin font-weight-regular {
+  font-weight: 400;
+}
+
+@mixin font-weight-semibold {
+  font-weight: 600;
+}
+
+@mixin font-weight-bold {
+  font-weight: 700;
+}

@@ -1,0 +1,9 @@
+// SVG Helper classes
+.has-shadowed-svg {
+  overflow: visible;
+}
+
+.svg-shadow {
+  $lt-shadow: rgba(0, 0, 0, .4);
+  filter: drop-shadow(2px 2px 4px $lt-shadow);
+}

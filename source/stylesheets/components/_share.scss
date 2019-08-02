@@ -1,0 +1,70 @@
+//sass-lint:disable no-important
+.share-butons {
+  font-size: 0;
+  text-align: center;
+
+  .share-btn {
+    float: left;
+    margin: 0 3px;
+    width: 32px;
+    line-height: 32px;
+    color: $color-white !important;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    transition: background .15s ease;
+
+    &.share-btn-facebook {
+      background-color: $facebook-bg;
+      font-size: 20px;
+
+      &:hover {
+        background-color: darken($facebook-bg, 10);
+      }
+    }
+
+    &.share-btn-twitter {
+      background-color: $twitter-bg;
+      font-size: 22px;
+
+      &:hover {
+        background-color: darken($twitter-bg, 10);
+      }
+    }
+
+    &.share-btn-linkedin {
+      background-color: $linkedin-bg;
+
+      &:hover {
+        background-color: darken($linkedin-bg, 10);
+      }
+    }
+  }
+}
+
+.twitter-block {
+  position: relative;
+
+  .twitter-block-link {
+    display: block;
+    overflow: auto;
+    color: $blog-color-note;
+  }
+
+  .twitter-text {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .click-to-tweet {
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    .fa-twitter {
+      color: $twitter-bg;
+    }
+  }
+}
+//sass-lint:enable no-important

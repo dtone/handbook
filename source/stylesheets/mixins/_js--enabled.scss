@@ -1,0 +1,8 @@
+// js-enabled
+//
+// Selector wrapper to apply styles only when JS is available.
+@mixin js--enabled() {
+  @at-root .html--js #{&} {
+    @content;
+  }
+}

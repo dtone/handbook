@@ -1,0 +1,9 @@
+!!! 5
+%html{lang: "en"}
+  %head
+    = partial "includes/layout/head"
+  %body{class: "#{page_classes} #{'purple-bg' if current_page.data.purple_bg}", data: {spy: "scroll", target: ".qnav", offset: "90"}}
+    = partial "includes/layout/header"
+    = partial "includes/layout/headline"
+    = yield
+    = partial "includes/layout/footer"

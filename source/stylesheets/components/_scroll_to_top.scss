@@ -1,0 +1,19 @@
+.scroll-to-top {
+  background-color: $color-gray-medium;
+  color: $color-gray-light;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 3px;
+  padding: 0 7px 3px;
+
+  &.affix {
+    bottom: 50px;
+    right: 3%;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $color-gray-light;
+    color: $color-gray;
+  }
+}

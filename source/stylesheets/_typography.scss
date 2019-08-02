@@ -1,0 +1,41 @@
+// "Lato" font-family
+@import "mixins/typography";
+
+.jumbo-heading {
+  font-size: 45px;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 55px;
+  }
+}
+
+.main-heading {
+  margin-bottom: $spacing-unit-xs;
+  font-size: 34px;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 36px;
+  }
+}
+
+.section-heading {
+  margin-top: 10px;
+  font-size: 30px;
+  color: $color-primary;
+}
+
+.sub-heading {
+  font-size: 26px;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 32px;
+  }
+}
+
+.promo-text {
+  font-size: 20px;
+}
+
+.table th h4 {
+  margin-top: 0;
+}

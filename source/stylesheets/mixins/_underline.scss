@@ -1,0 +1,30 @@
+  // sass-lint:disable indentation
+  @mixin underlined-link($color, $hover-color, $color-underline: $color, $shadow-color: $color-white) {
+  color: $color;
+  background-image: linear-gradient($color-underline, $color-underline);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: center bottom 8%;
+  text-decoration: none;
+  text-shadow: 1px 0 $shadow-color,
+               0 1px $shadow-color,
+               -1px 0 $shadow-color,
+               0 -1px $shadow-color,
+               -1px 1px $shadow-color,
+               1px -1px $shadow-color,
+               -1px -1px $shadow-color,
+               1px 1px $shadow-color,
+               -2px 0 $shadow-color,
+               2px 0 $shadow-color;
+
+  &::selection {
+    text-shadow: none;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $hover-color;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,17 @@
+.blockquote-alt {
+  margin-top: $spacing-unit-sm;
+  margin-bottom: $spacing-unit-sm;
+  color: $color-gray-light;
+  font-size: 16px;
+  font-style: italic;
+
+  @media (min-width: $screen-sm-min) {
+    max-width: 75%;
+  }
+
+  b,
+  strong {
+    color: $color-primary;
+    font-style: normal;
+  }
+}

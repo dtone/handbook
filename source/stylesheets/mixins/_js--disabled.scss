@@ -1,0 +1,8 @@
+// js-disabled
+//
+// Selector wrapper to apply styles only when JS is not available.
+@mixin js--disabled() {
+  @at-root .html--no-js #{&} {
+    @content;
+  }
+}

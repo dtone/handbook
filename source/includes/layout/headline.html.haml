@@ -1,0 +1,10 @@
+- if !current_page.data.suppress_header
+  .blank-header
+    %img.image-border.image-border-left{ src: "/images/home/icons-pattern-left.svg", alt: "Gitlab hero border pattern left svg" }
+    %img.image-border.image-border-right{ src: "/images/home/icons-pattern-right.svg", alt: "Gitlab hero border pattern right svg" }
+    .header-content
+      %h1
+        - if current_page.data.title
+          = current_page.data.title
+        - else
+          = yield_content(:title)

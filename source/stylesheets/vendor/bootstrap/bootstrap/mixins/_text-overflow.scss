@@ -1,0 +1,17 @@
+// Text overflow
+// Requires inline-block or block for proper styling
+
+@mixin text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin str-truncated($max_width: 82%) {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  white-space: nowrap;
+  max-width: $max_width;
+}
