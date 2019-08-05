@@ -21,8 +21,6 @@ source/stylesheets/screen.css
 .directory
 
 .idea/
-/.ruby-gemset
-
 .vscode
 
 /tmp
