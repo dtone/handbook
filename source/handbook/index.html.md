@@ -10,7 +10,7 @@ The Data Platform Engineering team handbook is the central repository for how we
 
 ## General Information
 
-- [Data Platform Engineering Value](/handbook/values/)
+- [Data Platform Engineering Values](/handbook/values/)
 
 <style>
 .md-page h2 i.icon-color {
