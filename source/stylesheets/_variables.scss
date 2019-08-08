@@ -198,26 +198,6 @@ $box-shadow-darken: 0 2px 4px $color-transparent-alt-darken;
 $box-shadow-medium: 0 10px 20px $color-transparent-alt;
 $box-shadow-large: 0 20px 40px $color-transparent-alt;
 
-$gitlab-live-gradient-dark: #0a021e;
-$gitlab-live-gradient-light: #251b3f;
-$features-gradient-end: rgba(148, 149, 150, 1);
-$features-gradient-begin: rgba(0, 0, 0, .91);
-$features-semi-transparent-white: rgba(255, 255, 255, .15);
-$features-semi-transparent-gray: rgba(180, 180, 180, .15);
-$features-semi-transparent-gray-link: rgba(180, 180, 180, .50);
-$features-semi-transparent-black: rgba(12, 12, 12, .47);
-$features-semi-transparent-purple: rgba(107, 79, 187, .50);
-$features-barely-transparent-white: rgba(255, 255, 255, .75);
-$features-gray-light-barely-transparent: rgba(170, 170, 170, .5);
-$features-gallery-background-gradient-begin: #6b4fbb;
-$features-gallery-background-gradient-middle: #5942a0;
-$features-gallery-background-gradient-end: #42327a;
-$features-gallery-alt-description-black: rgba(0, 0, 0, .7);
-
-$ee-standalone-primary-background-gradient: linear-gradient(to right, $color-primary-alt 0%, $features-gallery-background-gradient-middle 40%, $features-gallery-background-gradient-end 100%);
-$ee-standalone-hero-background-top: rgba(52, 55, 60, .85);
-$ee-standalone-hero-background-top-darker: rgba(52, 55, 60, .9);
-$ee-standalone-hero-background-gradient: linear-gradient(to bottom, $ee-standalone-hero-background-top, $landing-community-bg 85%);
 $facebook-bg: #3b5998;
 $facebook-blue: #3b5998;
 $twitter-bg: #55acee;
