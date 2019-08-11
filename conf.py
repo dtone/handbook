@@ -29,6 +29,7 @@ author = 'Data Platform Engineering'
 # ones.
 extensions = [
     'recommonmark',
+    'cloud_sptheme.ext.table_styling',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -45,15 +46,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
 
-html_theme_options = {
-    'logo': 'logo.svg',
-    'fixed_sidebar': True,
-#    'page_width': '1400px', # Default is 940px
-#    'sidebar_width': '380px', #Default is 220px
-    'analytics_id': '', # GA tracking code
-}
+html_theme = "press"
+html_logo = 'static/logo.svg'
+html_favicon = 'static/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

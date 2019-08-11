@@ -1,2 +1,10 @@
 sphinx
+
+# Support for Markdown
 recommonmark
+
+# Extende support for tables
+cloud_sptheme
+
+# Current theme
+sphinx_press_theme
