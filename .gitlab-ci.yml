@@ -2,12 +2,12 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
-  image: ruby:2.6
+  image: debian:stable-slim
   tags: ['docker']
   script:
-    - apt-get update -yqqq
-    - bundle install --path vendor
-    - bundle exec rake build
+    - apt-get update -yqqq && apt-get install -y python3-dev make
+    - make html
+    - mv _build/html/ public/
   artifacts:
     paths:
     - public

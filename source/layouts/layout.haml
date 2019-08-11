@@ -1,9 +1,0 @@
-!!! 5
-%html{lang: "en", class: 'html--no-js'}
-  %head
-    = partial "includes/layout/head"
-  %body{:data => {:spy => "scroll", :target => ".qnav", offset: "90"}}
-    = partial "includes/layout/header"
-    = partial "includes/layout/headline"
-    = yield
-    = partial "includes/layout/footer"

@@ -9,18 +9,15 @@
 /.pygments-cache
 /.sass-cache
 
+/_build
 /build
 /node_modules
 /public
 /vendor
 /tmp
 
-source/stylesheets/screen.css
-
 .DS_Store
 .directory
 
 .idea/
 .vscode
-
-/tmp

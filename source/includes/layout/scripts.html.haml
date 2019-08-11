@@ -1,7 +1,0 @@
-= javascript_include_tag "libs/jquery.min.js"
-= javascript_include_tag "libs/bootstrap.min.js"
-= javascript_include_tag "libs/jqBootstrapValidation.js"
-= javascript_include_tag "scripts.js"
-- if current_page.data.extra_js
-  - current_page.data.extra_js.each do |js_name|
-    = javascript_include_tag "#{js_name}"
