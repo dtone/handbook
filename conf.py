@@ -50,8 +50,8 @@ html_theme = 'alabaster'
 html_theme_options = {
     'logo': 'logo.svg',
     'fixed_sidebar': True,
-    'page_width': '1400px', # Default is 940px
-    'sidebar_width': '380px', #Default is 220px
+#    'page_width': '1400px', # Default is 940px
+#    'sidebar_width': '380px', #Default is 220px
     'analytics_id': '', # GA tracking code
 }
 
