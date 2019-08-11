@@ -7,7 +7,7 @@ The Data Platform Engineering team handbook is the central repository for how we
    :maxdepth: 2
    :glob:
 
-   source/values.md
-   source/tech-tips/*
+   handbook/values.md
+   handbook/tech-tips/*
 
 * :ref:`genindex`
