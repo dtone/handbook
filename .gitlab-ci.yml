@@ -5,7 +5,7 @@ pages:
   image: debian:stable-slim
   tags: ['docker']
   script:
-    - apt-get update -yqqq && apt-get install -y python3-dev make python3-virtualenv
+    - apt-get update -yqqq && apt-get install -y python3-dev make virtualenv
     - make html
     - mv _build/html/ public/
   artifacts:
