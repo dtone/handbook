@@ -17,7 +17,7 @@ There is a lot of information flows, we suggest you always follow [Data Platform
 
 Such level of openness / sharing can be counter-intuitive for new team members. Invest extra time into explaining why we are trying to exercise extreme transparency; engage in open dialogue; walk extra mile to allow sharing (for example make a private issue or post-mortem public, so we all can learn from it).
 
-Check [sharing tips section](tech-tips/sharing.md) for couple technical tips how to improve sharing.
+Check [sharing sections in tech tips](tech-tips.html#better-sharing) for couple technical tips how to improve sharing.
 
 ### WHY? WHY? WHY? and maybe WHAT? and HOW?
 

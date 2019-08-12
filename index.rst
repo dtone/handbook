@@ -8,6 +8,6 @@ The Data Platform Engineering team handbook is the central repository for how we
    :glob:
 
    handbook/values.md
-   handbook/tech-tips/*
+   handbook/tech-tips.rst
 
 * :ref:`genindex`
