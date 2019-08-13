@@ -12,7 +12,6 @@ Make sure, that you have allowed other in the company to see your events:
 
 ![My calendar access](cal/cal-access.png)
 
-
 ## Allow guest to modify invites
 
 Please make sure, that you have set `Default guest permission` under `Settings -> General -> Event settings` to `Modify event` (or at least to `Invite others`).
@@ -23,7 +22,7 @@ This setting will allow your guests to add other people to meetings, add dial-in
 
 ## Speedy meetings
 
-We suggest using `Speedy meetings` also under `Settings -> General -> Event settings`. 
+We suggest using `Speedy meetings` also under `Settings -> General -> Event settings`.
 
 ![Speedy meetings](cal/speedy.png)
 
@@ -35,4 +34,20 @@ Set your working hours to give hint to the others, when they should be schedulin
 
 ## World clock
 
-Google Calendar has built in simple world clock. I find it quite useful for making a quick decision if I am going to reach out to someone or send an email. You can set it as follows ![World clock settings](cal/worldclock-settings.png), which will result into ![World clock rendered](cal/worldclock.png).
+Google Calendar has built in simple world clock. I find it quite useful for making a quick decision if I am going to reach out to someone or send an email. You can set it as follows
+
+![World clock settings](cal/worldclock-settings.png).
+
+That will result into
+
+![World clock rendered](cal/worldclock.png).
+
+## Holidays in different countries
+
+You may have spotted an automatic calendar tracking holidays in your home country. It looks like this for me:
+
+![Czech Republic Holidays](cal/holidays1.png)
+
+You can easily add other countries. For example if you want to add Kenyan, you just need to `+ -> Browse calendars of interest -> Regional holidays -> Kenya` as shown below.
+
+![Adding Kenyan holidays](cal/holidays.gif)
