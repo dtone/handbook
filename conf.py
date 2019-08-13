@@ -29,6 +29,7 @@ author = 'Data Platform Engineering'
 # ones.
 extensions = [
     'recommonmark',
+    'sphinx.ext.autosectionlabel',
     'cloud_sptheme.ext.table_styling',
 ]
 
@@ -39,6 +40,17 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
+
+autosectionlabel_prefix_document = True
+
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'enable_eval_rst': True,
+            }, True)
+    app.add_transform(AutoStructify)
 
 
 # -- Options for HTML output -------------------------------------------------
