@@ -38,3 +38,5 @@ and to `requirements.txt`
 ```
 f5-sphinx-theme
 ```
+
+If we would ever want to switch to hugo. There is an awesome theme called [hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn/).
