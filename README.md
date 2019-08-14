@@ -39,4 +39,8 @@ and to `requirements.txt`
 f5-sphinx-theme
 ```
 
-If we would ever want to switch to hugo. There is an awesome theme called [hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn/).
+If we would ever want to switch to `hugo`. There are is very nice themes:
+
+  - https://github.com/matcornic/hugo-theme-learn/
+  - https://github.com/vjeantet/hugo-theme-docdock
+  - https://github.com/linode/docs
