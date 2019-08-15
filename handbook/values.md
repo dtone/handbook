@@ -1,8 +1,5 @@
 # Data Platform Engineering Values
 
-
-FIXME - we need to show how they overlap and polish ours a bit
-
 Core DTOne values are **Be Ambitious**, **Diversity is an Asset**, **Do the right thing**, **Work smart** and **Passion with Purpose**. We have extended those with the following **Openness** (Default to transparency), **Honesty**, **Being excellent to each other**, **Delivery** (Default to action), **Personal responsibility**, **Be yourself** and **Constant learning**.
 
 ## Collaboration & Openness
@@ -48,6 +45,8 @@ Always keep in mind, that we frequently fall victim of the [Fundamental Attribut
 Giving feedback is not easy thing; but receiving feedback is even more challenging. When delivering feedback, always focus on the work itself, emphasis business or technical impact, never the person. Make sure, that you provide at least one recent and clear example. Try to factor in external factors (maybe parson is going through some family crisis for example).
 
 Nobody has 100% delivery, you should evaluate if the particular issue is even worth giving a feedback. Especially, if you are manager, keep in mind, that negative feedback is typically taken [way more (6x) seriously](https://hbr.org/2013/03/the-delicate-art-of-giving-fee) than positive one.
+
+Being direct means to be transparent with each other. It doesn't mean being mean. It be a bit like Ben Horowitz, as they call him being [https://blog.producthunt.com/ben-horowitz-s-best-startup-advice-7e8c09c8de1b](both straightforward and kind).
 
 Always keep in mind, that we are giving feedback to **improve**.
 
@@ -116,3 +115,13 @@ Think about multiplication effects, when sending one-to-many communication (e.g.
 ### Responsibility over Rigidity
 
 We believe, that it is better to give people freedom and responsibility to make a decisions and hold them accountable for that instead of imposing complicated rules and rigid approval processes.
+
+Most decisions are easy to reverse. There is helpful [metaphor attributed to Amazon](https://www.geekwire.com/2015/the-peculiar-traits-of-great-amazon-leaders-frugal-innovative-and-body-odor-that-doesnt-smell-like-perfume/) about one-way and two-way door decisions. Make reversible changes without approval, and if you can't reverse them (or they are hard to reverse), then you should have more through discussion about them.
+
+## Diversity is an Asset
+
+Diversity is a very important asset. Having people from different countries and cultural backgrounds gives us tremendous advantage in finding alternative solutions and new market opportunities. We don't select candidates because we'd like to go partying with them. We hire and reward employees based on our shared values as described on this page. Values fit is important, not a culture fit. We actually want to avoid everybody behaves according to one culture, especially if such cultures is not inclusive. For example a typical [brogrammer culture](https://en.wikipedia.org/wiki/Brogrammer).
+
+Unexpected and unconventional things make life more interesting. Talk about your, event a bit off, hobbies. Coffee breaks and Donut calls are excellent place to share your passions.
+
+Last but not least, don't bring religion or politics to work.
