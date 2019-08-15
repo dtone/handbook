@@ -1,6 +1,6 @@
 # Data Platform Engineering Handbook
 
-You can view rendered version at [https://handbook.dtone.engineering](https://handbook.dtone.engineering). Access is currently limited to DTOne employees, but there is an appetite to release it to public.
+You can view rendered version at [https://handbook.dtone.engineering](https://handbook.dtone.engineering). Be aware that it is available to the public.
 
 ## Building handbook locally
 
