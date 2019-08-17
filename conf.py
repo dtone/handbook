@@ -21,6 +21,8 @@ project = 'Handbook'
 copyright = '2019, DTOne Data Platform Engineering'
 author = 'Data Platform Engineering'
 
+html_baseurl = 'https://handbook.dtone.engineering/'
+
 
 # -- General configuration ---------------------------------------------------
 
@@ -28,6 +30,7 @@ author = 'Data Platform Engineering'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_sitemap',
     'recommonmark',
     'sphinx.ext.autosectionlabel',
     'cloud_sptheme.ext.table_styling',

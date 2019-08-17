@@ -1,4 +1,5 @@
 sphinx
+sphinx-sitemap
 
 # Support for Markdown
 recommonmark
