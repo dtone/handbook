@@ -29,7 +29,7 @@ Only exception when reviewer could approve change which is worsening overall cod
 
 ### Choosing your code-reviewer
 
-Unfortunately, automation in GitLab is currently very limited. You need to pic your reviewer manually. Phabricator is way better, but we are currently not promoting Differential flow as it is more complicated for a junior developers (also not ideal when you need to collaborate on the top of the code).
+Unfortunately, automation in GitLab is currently very limited. You need to pick your reviewer manually. Phabricator is way better, but we are currently not promoting Differential flow as it is more complicated for a junior developers (also not ideal when you need to collaborate on the top of the code).
 
 Rule of thumb for choosing your reviewer is to **escape your bubble**. Try to ask other people first, then your buddy sitting next you. This helps keeping engagement as well as overall understanding of the code-base. It also helps tremendously with keeping whole code-base consistent.
 
