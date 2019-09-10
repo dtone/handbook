@@ -9,7 +9,7 @@ require_relative 'changelog/rss'
 
 Gitlab.configure do |config|
   config.endpoint = 'https://git.dtone.xyz/api/v4'
-  config.private_token = ENV.fetch('PRIVATE_TOKEN', nil)
+  config.private_token = ENV.fetch('GITLAB_PRIVATE_TOKEN', nil)
 end
 
 module Changelog

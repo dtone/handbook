@@ -18,6 +18,8 @@ make html
 
 this will built a fresh static version of the site, which you can view at your browser. When pushed to `master` (please don't do it without proper MR), CI/CD pipeline will build it and publish it as a GitLab page at [https://handbook.dtone.engineering](https://handbook.dtone.engineering).
 
+You will need to set environment variable `GITLAB_PRIVATE_TOKEN` in case you would like to generate `changelog.md`. Used token will need access to repository merge-requests (at least `Reporter` role).
+
 ### Enabled extensions
 
 #### `recommonmark` -- Using Markdown
