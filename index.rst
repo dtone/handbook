@@ -10,6 +10,7 @@ The Data Platform Engineering team handbook is the central repository for how we
    handbook/values.md
    handbook/tech-tips.rst
 
+* :doc:`/changelog`
 * :ref:`genindex`
 
 Contributing
