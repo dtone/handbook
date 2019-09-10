@@ -5,7 +5,8 @@ pages:
   image: debian:stable-slim
   tags: ['docker']
   script:
-    - apt-get update -yqqq && apt-get install -y python3-dev make virtualenv
+    - apt-get update -yqqq && apt-get install -y python3-dev make virtualenv ruby-bundler
+    - rm -f changelog.md ; bundle install
     - make html
     - mv _build/html/ public/
   artifacts:

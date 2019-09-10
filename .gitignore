@@ -16,6 +16,8 @@
 /vendor
 /tmp
 
+/changelog.md
+
 .DS_Store
 .directory
 

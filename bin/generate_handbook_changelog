@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'date'
+require 'gitlab'
+require_relative '../lib/changelog'
+
+REL_FILE_PATH = "changelog.md"
+FILE_PATH = File.expand_path(REL_FILE_PATH)
+
+Changelog::File.create(FILE_PATH)
