@@ -42,5 +42,10 @@ $(VENV_DIR)/bin/activate: requirements.txt
 	. $(VENV_ACTIVATE) ; $(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 # 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+# Set environment variable NO_RUBY to skip creating the changelog
 changelog.md:
-	bundle exec bin/generate_handbook_changelog
+	@if [ -z "${NO_RUBY}" ]; then\
+		bundle exec bin/generate_handbook_changelog;\
+	else\
+		echo "Changelog not generated.";\
+	fi
