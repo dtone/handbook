@@ -22,7 +22,6 @@ setup: venv
 	$(VENV_DIR)/bin/activate && which pip3
 	which $(SPHINXBUILD)
 
-# This only works because of .ONESHELL !
 .PHONY: venv
 venv: $(VENV_DIR)/bin/activate
 
@@ -35,12 +34,23 @@ $(VENV_DIR)/bin/activate: requirements.txt
 	${PYTHON} -m pip install -Ur requirements.txt
 	touch $(VENV_DIR)/bin/activate
 
+.PHONY: clean
+clean:
+	rm -rf "$(BUILDDIR)"
+	rm -f changelog.md
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 .PHONY: Makefile
 %: Makefile venv
 	. $(VENV_ACTIVATE) ; $(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 # 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+.PHONY: changelog
+changelog: bundle changelog.md
+
+bundle:
+	bundle install
 
 changelog.md:
 	bundle exec bin/generate_handbook_changelog

@@ -6,8 +6,7 @@ pages:
   tags: ['docker']
   script:
     - apt-get update -yqqq && apt-get install -y python3-dev make virtualenv ruby-bundler
-    - rm -f changelog.md ; bundle install
-    - make changelog.md html
+    - make clean changelog html
     - mv _build/html/ public/
   artifacts:
     paths:
