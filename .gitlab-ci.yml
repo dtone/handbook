@@ -7,7 +7,7 @@ pages:
   script:
     - apt-get update -yqqq && apt-get install -y python3-dev make virtualenv ruby-bundler
     - rm -f changelog.md ; bundle install
-    - make html
+    - make changelog.md html
     - mv _build/html/ public/
   artifacts:
     paths:
