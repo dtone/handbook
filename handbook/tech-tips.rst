@@ -10,3 +10,11 @@ Better Sharing and Collaboration
    :glob:
 
    tech-tips/sharing/*
+
+GitLab
+******
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   tech-tips/gitlab/*
