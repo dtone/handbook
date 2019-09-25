@@ -96,7 +96,7 @@ Fill in the short description if needed. On most pages, rendered description is 
 
 ### Visibility
 
-Use _Internal_ visibility by default to allow for our open culture. There's a story that one of the hard engineering problems in Google revolving around concurrency issues in the code was solved my their Marketing team. If your project contains secrets you must absolutely hide, contact [#acs-fresco](https://app.slack.com/client/TH44CUB2M/CKJVCEC4E) on Slack. They might already have a better solution for handling secrets. This is a global default, please do not change it unless absolutely necessary.
+Use _Internal_ visibility by default to allow for our open culture. There's a story that one of the hard engineering problems in Google revolving around concurrency issues in the code was solved by their Marketing team. If your project contains secrets you must absolutely hide, contact [#acs-fresco](https://app.slack.com/client/TH44CUB2M/CKJVCEC4E) on Slack. They might already have a better solution for handling secrets. This is a global default, please do not change it unless absolutely necessary.
 
 ### `README.md`
 
