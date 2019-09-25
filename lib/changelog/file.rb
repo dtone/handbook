@@ -21,7 +21,7 @@ module Changelog
         
       PREAMBLE
 
-      content += merge_requests.group_by(&:date).map do |date, mrs|
+      content += merge_requests.sort_by(&:date).reverse.group_by(&:date).map do |date, mrs|
         mrs.unshift("### #{date}").map(&:to_s).join("\n")
       end.join("\n\n")
 
