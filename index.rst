@@ -20,3 +20,15 @@ Contributing
 ------------
 
 **Everybody** is encouraged to contribute. If you want to improve single sentence, paragraph or add a whole new chapter, please open a `merge request <https://git.dtone.xyz/office/handbook/merge_requests>`_. Handbook is meant to be a living document which is shared across the entire organization. This can be even done in the browser through `Gitlab WebIDE <https://git.dtone.xyz/-/ide/project/office/handbook/edit/master/-/>`_.
+
+Motivation and Attribution
+--------------------------
+
+We have started this effort very early on, when joined DTOne. DTOne is a highly distributed company with offices all around the World. But we felt that there is a room for improvement to make it truly fully distributed. We are not necessarily need or want to be fully remote organization. We do have offices to facilitate need for contact. But we want to be able to operate as fully remote as that allows for knowledge sharing.
+
+We take a huge inspiration from
+
+* `Amazon's Leadership Priciples <https://www.amazon.jobs/en/principles>`_
+* `GitLab's Handbook <https://about.gitlab.com/handbook/>`_
+* **An Everyone Culture** by Robert Kegan and Lisa Laskow Lahey
+* **Priciples** by Ray Dalio
