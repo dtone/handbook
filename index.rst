@@ -19,7 +19,7 @@ The Data Platform Engineering team handbook is the central repository for how we
 Contributing
 ------------
 
-**Everybody** is encouraged to contribute. If you want to improve single sentence, paragraph or add a whole new chapter, please open a `merge request <https://git.dtone.xyz/office/handbook/merge_requests>`_. Handbook is meant to be a living document which is shared across the entire organization. This can be even done in the browser through `Gitlab WebIDE <https://git.dtone.xyz/-/ide/project/office/handbook/edit/master/-/>`_.
+**Everybody** is encouraged to contribute. If you want to improve single sentence, paragraph or add a whole new chapter, please open a `merge request at GitLab<https://git.dtone.xyz/office/handbook/merge_requests>`_ or visit our `GitHub mirror <https://github.com/dtone/handbook>`_. Handbook is meant to be a living document which is shared across the entire organization. This can be even done in the browser through `Gitlab WebIDE <https://git.dtone.xyz/-/ide/project/office/handbook/edit/master/-/>`_.
 
 Motivation and Attribution
 --------------------------
