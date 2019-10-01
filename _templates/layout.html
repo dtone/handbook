@@ -10,11 +10,13 @@
 
 <meta property="og:title" content="DTOne Engineering Handbook :: {{ title }}" />
 <meta property="og:description" content="The Data Platform Engineering team handbook is the central repository for how we run." />
-<meta property="og:image" content="/_static/dtone_handbook.png" />
+<meta property="og:url" content="{{ pageurl }}" />
+<meta property="og:image" content="https://handbook.dtone.engineering/{{ pathto('_static/dtone_handbook.png', 1) }}" />
 
 <meta property="twitter:title" content="DTOne Engineering Handbook :: {{ title }}" />
 <meta property="twitter:description" content="The Data Platform Engineering team handbook is the central repository for how we run." />
-<meta property="twitter:image:src" content="/_static/dtone_handbook.png" />
+<meta property="twitter:url" content="{{ pageurl }}" />
+<meta property="twitter:image:src" content="https://handbook.dtone.engineering/{{ pathto('_static/dtone_handbook.png', 1) }}" />
 {% endblock %}
 
 {% block footer %}
