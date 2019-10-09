@@ -45,6 +45,8 @@ Reviewer should always make sure, that they have thought about the following asp
 - Any parallel programming or external services are handled safely (check for race-conditions, deadlocks, missing timeouts).
 - The code isn’t more complex than it needs to be.
 - The developer isn’t implementing things they might need in the future but don’t know they need now.
+- Code is not weakening our security model.
+- Code appropriately handles privacy of the users (for example it is not logging unnecessary personal details into application logs).
 - Code has appropriate unit tests.
 - Tests are well-designed.
 - The developer used clear names for everything.
