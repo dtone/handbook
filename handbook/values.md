@@ -46,7 +46,7 @@ Giving feedback is not easy thing; but receiving feedback is even more challengi
 
 Nobody has 100% delivery, you should evaluate if the particular issue is even worth giving a feedback. Especially, if you are manager, keep in mind, that negative feedback is typically taken [way more (6x) seriously](https://hbr.org/2013/03/the-delicate-art-of-giving-fee) than positive one.
 
-Being direct means to be transparent with each other. It doesn't mean being mean. It be a bit like Ben Horowitz, as they call him being [https://blog.producthunt.com/ben-horowitz-s-best-startup-advice-7e8c09c8de1b](both straightforward and kind).
+Being direct means to be transparent with each other. It doesn't mean being mean. It be a bit like Ben Horowitz, as they call him being [both straightforward and kind](https://blog.producthunt.com/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
 
 Always keep in mind, that we are giving feedback to **improve**.
 
