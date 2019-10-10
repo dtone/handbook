@@ -3,18 +3,36 @@ Data Platform Engineering Handbook
 
 The Data Platform Engineering team handbook is the central repository for how we run.
 
+Working together
+----------------
+
 .. toctree::
    :maxdepth: 2
    :glob:
 
    handbook/values.md
-   handbook/tech-tips.rst
+   handbook/sharing.md
 
-   handbook/coding-style.rst
+Various tools
+-------------
+
+This section of Handbook tries to capture various tips and ticks for getting maximum from various tools we use in our day-to-day (work) lives. It also sets common base for some of the tools up.
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   handbook/gitlab/intro.md
+
+Producing code
+--------------
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
    handbook/code-review.md
-
-* :doc:`/changelog`
-* :ref:`genindex`
+   handbook/coding-style.rst
 
 Contributing
 ------------
@@ -32,3 +50,6 @@ We take a huge inspiration from
 * `GitLab's Handbook <https://about.gitlab.com/handbook/>`_
 * **An Everyone Culture** by Robert Kegan and Lisa Laskow Lahey
 * **Priciples** by Ray Dalio
+
+* :doc:`/changelog`
+* :ref:`genindex`

@@ -112,7 +112,7 @@ You might also use [landfill group](https://git.dtone.xyz/landfill) for experime
 
 One of the strong Gitlab features is an awesome merge request tool. Ideal way to propose changes and gather feedback from project maintainers.
 
-Please see [code review guidelines](../../code-review) for more details.
+Please see [code review guidelines](../code-review) for more details.
 
 To create a merge request, create a branch. Name of your branch must **always start with ticket name** e.g `Txxxx_super_useful_feature` where Txxxx is Phabricator ticket number. Description needs to start with the same `Txxxx` too for our Gitlab Phabricator integration to work. Phabricator diff will be attached to respective ticket and on merge a note will appear in your ticket's history.
 
@@ -152,7 +152,7 @@ When creating a merge request, please:
 
 * In case MR isn't finished, put __WIP:__ in front of the title. Gitlab will not allow merging unless __WIP:__ prefix is removed.
 
-* Check [code review guidelines](../../code-review) on how to write nice title and description.
+* Check [code review guidelines](../code-review) on how to write nice title and description.
 
 * Assign merge request to a person you believe most fit for purpose. You can also mention others in description using slash cc command: e.g. `/cc @jane.doe @john.smith` (note: many slash commands are [supported](https://git.dtone.xyz/help/user/project/quick_actions). Consider using slash commands in comment after creating MR or removing it from description before merge to keep nice git log. If you need more eyes that 2, to work around missing "multiple reviewers" feature, please make agreement with other reviewers via comments or cycle through multiple assignees.
 
@@ -164,7 +164,7 @@ When creating a merge request, please:
 
 ### Reviewer
 
-After a [thorough code review](../../code-review), reassign your MR back to the author to clearly signal you've finished.
+After a [thorough code review](../code-review), reassign your MR back to the author to clearly signal you've finished.
 
 ### Who merges
 
