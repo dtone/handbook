@@ -56,9 +56,9 @@ You can easily add other countries. For example if you want to add Kenyan, you j
 
 ## Donut Calls
 
-We have established a regular weekly [donut](https://www.donut.com/pairing/) calls. These calls about meeting different people in the organization. Learning about them, their lives, family, hobbies. But also chatting about what they do in the organization. Frequently, you will find out, that you can easily help with somebody with something what they consider tedious. If you are software engineer, some simple automation can do a lot for person in finance.
+We have established a regular bi-weekly [donut](https://www.donut.com/pairing/) calls. These calls about meeting different people in the organization. Learning about them, their lives, family, hobbies. But also chatting about what they do in the organization. Frequently, you will find out, that you can easily help with somebody with something what they consider tedious. If you are software engineer, some simple automation can do a lot for person in finance.
 
-Please, please, please, attend them. Be on time and spend the call chatting.
+Please, please, please, attend them. Be on time and spend the call chatting. We suggest scheduling donut call for 20 minutes.
 
 ### How to snooze pairing
 
