@@ -4,7 +4,7 @@ You can view rendered version at [https://handbook.dtone.engineering](https://ha
 
 ## Contributing
 
-**Everybody** is encouraged to contribute. If you want to improve single sentence, paragraph or add a whole new chapter, please open a [merge request](https://git.dtone.xyz/office/handbook/merge_requests). Handbook is meant to be a living document which is shared across the entire organization. This can be even done in the browser through [Gitlab WebIDE](https://git.dtone.xyz/-/ide/project/office/dpew/edit/master/-/). If you want to keep in touch check [changelog](https://handbook.dtone.engineering/changelog.html). To be involved in building handbook consider subscribing to the repository and engaging in reviews of new changes -- Click the little bell icon on [handbook's project page](https://git.dtone.xyz/office/handbook), select custom and check _New merge request_.
+**Everybody** is encouraged to contribute. If you want to improve single sentence, paragraph or add a whole new chapter, please open a [merge request](https://git.dtone.xyz/office/handbook/merge_requests). Handbook is meant to be a living document which is shared across the entire organization. This can be even done in the browser through [Gitlab WebIDE](https://git.dtone.xyz/-/ide/project/office/handbook/edit/master/-/). If you want to keep in touch check [changelog](https://handbook.dtone.engineering/changelog.html). To be involved in building handbook consider subscribing to the repository and engaging in reviews of new changes -- Click the little bell icon on [handbook's project page](https://git.dtone.xyz/office/handbook), select custom and check _New merge request_.
 
 For tiny changes that do not change meaning, please add `no changelog` label to the merge request.
 

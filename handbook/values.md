@@ -10,7 +10,7 @@ Working and helping others is a priority, even if you don't see a direct relatio
 
 Being **open** and **honest** to each other is very critical component of our success. We **default to transparency**, meaning that you should make everything accessible by default and only solve for limited access rights in special cases. Place your files in shared drives (aka Team Drives). Don't just share 1:1 content, which could be generally interesting. Capture your progress in appropriate tickets.
 
-There is a lot of information flows, we suggest you always follow [Data Platform Engineering Weekly](https://dpew.dtone.enineering) which provides summary of recent week.
+There is a lot of information flows, we suggest you always follow [Engineering News](https://news.dtone.engineering) which provides summary of recent week. Data Platform uses [#dpew](https://news.dtone.engineering/tags/dpew/) tag meaning Data Platform Engineering Weekly.
 
 Such level of openness / sharing can be counter-intuitive for new team members. Invest extra time into explaining why we are trying to exercise extreme transparency; engage in open dialogue; walk extra mile to allow sharing (for example make a private issue or post-mortem public, so we all can learn from it).
 
@@ -59,7 +59,7 @@ Mistake or issue is always a learning opportunity. Result of (almost) every trou
 We are spread all around the Wold and also use a lot of text-based communication tools (email, chat, tickets). We don't have "luxury" of being able to meet everybody in person, go together to lunch. Thus is very important to engage in activities which are trying to supplement random and more causal interactions. We are currently doing the following:
 
 - [donut calls](https://www.donut.com/pairing/) organized via `#donut` Slack channel every Monday. Please make sure, that you are member of the channel as well as you schedule and participate on the call with the selected counterpart.
-- Follow [Data Platform Engineering Weekly](https://dpew.dtone.enineering).
+- Follow [Engineering News](https://news.dtone.enineering). Data platform uses [#DPEW](https://news.dtone.engineering/tags/dpew/) tag there.
 - Czech Coffee Break (CCB) are happening every day at 13:00 CET.
 
 ## Delivery
