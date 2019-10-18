@@ -13,17 +13,6 @@ Working together
    handbook/values.md
    handbook/sharing.md
 
-Various tools
--------------
-
-This section of Handbook tries to capture various tips and ticks for getting maximum from various tools we use in our day-to-day (work) lives. It also sets common base for some of the tools up.
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   handbook/gitlab/intro.md
-
 Producing code
 --------------
 
@@ -32,7 +21,9 @@ Producing code
    :glob:
 
    handbook/code-review.md
+   handbook/merge-requests.md
    handbook/coding-style.rst
+   handbook/gitlab.md
 
 Contributing
 ------------
