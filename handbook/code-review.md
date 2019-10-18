@@ -54,14 +54,27 @@ Reviewer should always make sure, that they have thought about the following asp
 - Code is appropriately documented.
 - The code conforms to our style guides.
 
-## Writing code-review description
+## Writing code-review description & commit message
 
-When you are author getting ready to submit your fresh change for code-review. Always pay attention to the description of the code-review request. A description is a public record of **what** change is being made and **why** it was made.
+When you are author getting ready to submit your fresh change for code-review. Always pay attention to the description of the code-review request. A description is a public record of **what** change is being made and **why** it was made. For writing good description apply the same principles as for writing a good commit message. Therefore we are going to cover them together. For more, read [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) from Tim Pope and [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) from Chris Beams.
+
+Summary of key principles of the good description or commit message:
+
+- Separate subject from body with a blank line.
+- Limit the subject line to 50 characters.
+- Capitalize the subject line.
+- Do not end the subject line with a period.
+- Use the imperative mood in the subject line.
+- Wrap the body at 72 characters for git commit messages.
+- Use the body to explain what and why vs. how.
+
+Please check out also specifics for creating merge requests in our [gitlab](gitlab/intro.html#merge-requests-mr).
 
 ### First Line
 
 - Short summary of what is being done.
-- Complete sentence, written as though it was an order.
+- Limited to 50 characters.
+- Complete sentence, written as though it was an order. But without the period at the end of the line.
 - Followed by an empty line.
 
 The first line of a description should be a short summary of specifically what is being done by the change followed by a blank line. This holds true for any commit in our version control. *Title* of the merge-request in GitLab will become the first line in the commit message, when merged. Pay attention to your titles.
@@ -70,9 +83,20 @@ By tradition, the first line of a CL description is a complete sentence, written
 
 ### Body is Informative
 
+- Wrap the body at 72 characters for git commit messages.
+
 The rest of the description should be informative. It might include a brief description of the problem that’s being solved, and why this is the best approach. If there are any shortcomings to the approach, they should be mentioned. If relevant, include background information such as bug numbers, benchmark results, and links to design documents.
 
 Always include mention of the related implementation ticket (no need for full URL, simple `Txxxx` is sufficient).
+
+### Special formatting
+
+Commit messages are being parsed by various systems in use. For example direct mention of task, like `T2980` will make it clickable and also adds the commit (revision) into list of related revisions in the task.
+
+Status of task can be also changed directly. It is controlled with `maniphest.statuses` configuration in Phabricator. These are used in the form `<prefix> <optional noun> Txxx [optional more Txxx] <optional suffix>`. For example, `Closes T123` or `Closes T123 as Wontfix`. Current configuration is:
+
+- the prefixes are: closed, closes, close, fix, fixes, fixed, resolve, resolves, resolved, wontfix, wontfixes, wontfixed, invalidate, invalidates, invalidated, spite, spites, spited.
+- the suffixes are: as invalid, as wontfix, as resolved, as fixed.
 
 ## Writing code-review comments
 

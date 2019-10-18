@@ -114,7 +114,7 @@ One of the strong Gitlab features is an awesome merge request tool. Ideal way to
 
 Please see [code review guidelines](../code-review) for more details.
 
-To create a merge request, create a branch. Name of your branch must **always start with ticket name** e.g `Txxxx_super_useful_feature` where Txxxx is Phabricator ticket number. Description needs to start with the same `Txxxx` too for our Gitlab Phabricator integration to work. Phabricator diff will be attached to respective ticket and on merge a note will appear in your ticket's history.
+To create a merge request, create a branch. Description should start with the Phabricator task (`Txxxx`) for our Gitlab Phabricator integration to work. Phabricator diff will be attached to respective task and on merge a note will appear in your task's history.
 
 ### From commandline / git
 
@@ -160,7 +160,9 @@ When creating a merge request, please:
 
 * Always check __Delete source branch when merge request is accepted__.
 
-* Consider also checking __Squash commits when merge request is accepted__. All commits in your MR will be "squashed" into one commit. Git log will then contain just MR's title and description (and a merge commit, but don't worry about that). If you're doing a really large MR where it might make sense to keep commits from that MR split to ease the code review process (splitting it to parts per commit, show your process or group changes), you'll have much more freedom when commiting to MR's branch regarding commit logs, fixes, merges from master etc. when you use "squash". Git log message will still be nice and readable making sense in the context of the whole project even if you commit stuff like "fixes" and "more fixes" into the MR (which is a no-no in the "official" log).
+* Consider also checking __Squash commits when merge request is accepted__. All commits in your MR will be "squashed" into one commit. Git log will then contain just MR's title and description (and a merge commit, but don't worry about that). If you're doing a really large MR where it might make sense to keep commits from that MR split to ease the code review process (splitting it to parts per commit, show your process or group changes), you'll have much more freedom when committing to MR's branch regarding commit logs, fixes, merges from master etc. when you use "squash". Git log message will still be nice and readable making sense in the context of the whole project even if you commit stuff like "fixes" and "more fixes" into the MR (which is a no-no in the "official" log).
+
+* Always double-check the merge and squash commit messages. You will typically find yourself clicking on `Include merge request description` and removing the first line talking about merging particular branch to master.
 
 ### Reviewer
 
