@@ -1,10 +1,10 @@
 Data Platform Engineering Handbook
-==================================
+**********************************
 
 The Data Platform Engineering team handbook is the central repository for how we run.
 
 Working together
-----------------
+================
 
 .. toctree::
    :maxdepth: 2
@@ -14,7 +14,7 @@ Working together
    handbook/sharing.md
 
 Producing code
---------------
+==============
 
 .. toctree::
    :maxdepth: 2
@@ -22,11 +22,20 @@ Producing code
 
    handbook/code-review.md
    handbook/merge-requests.md
-   handbook/coding-style.rst
    handbook/gitlab.md
 
+Language specific topics
+------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   handbook/coding-style.rst
+   handbook/language_tools/python.md
+
 Contributing
-------------
+============
 
 **Everybody** is encouraged to contribute. If you want to improve single sentence, paragraph or add a whole new chapter, please open a `merge request at GitLab <https://git.dtone.xyz/office/handbook/merge_requests>`_ or visit our `GitHub mirror <https://github.com/dtone/handbook>`_. Handbook is meant to be a living document which is shared across the entire organization. This can be even done in the browser through `Gitlab WebIDE <https://git.dtone.xyz/-/ide/project/office/handbook/edit/master/-/>`_.
 
