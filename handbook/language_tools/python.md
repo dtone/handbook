@@ -4,7 +4,7 @@
 
 When using the `pip` installation tool, all the package informaton is downloaded from the PyPI website, <https://pypi.org/> (this URL is used both for automatic installation and for the web application listing the packages). However, this server hosts only *public* packages and it is necessary to provide an alternative server for private packages.
 
-In order for DTOne's custom Python packages to be easily installable, we have our own package index (PyPI) running at <https://[username]:[password]@pypi.dtone.xyz/[key]]/>. Please replace `[username]`, `[password]` and `[key]` with values obtained from the 1password credential storage (also in the rest of this text unless stated otherwise).
+In order for DTOne's custom Python packages to be easily installable, we have our own package index (PyPI) running at <https://[username]:[password]@pypi.dtone.xyz/[key]/>. Please replace `[username]`, `[password]` and `[key]` with values obtained from the 1password credential storage (also in the rest of this text unless stated otherwise).
 
 ### Installing a package
 
@@ -126,8 +126,8 @@ Again, you can store the credentials in a file, this time in `$HOME/.pypirc`. No
 index-servers =
     dtone
 
-[dtone]
-    repository: https://pypi.dtone.xyz/[key]/     # Note the slash at the end!
+[dtone]  # Note the slash at the end of the next line!
+    repository: https://pypi.dtone.xyz/[key]/    
     username: [username]
     password: [password]
 ```
@@ -137,7 +137,7 @@ This will allow you to use the alias for your package index:
 ```
 python setup.py sdist upload -r dtone
 
-# or: twine upload -r dtone
+# or: twine upload dist/dtone-cool-lib-0.0.1.tar.gz -r dtone
 ```
 
 ### Fixing a wrongly uploaded package (advanced)
