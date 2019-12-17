@@ -11,7 +11,7 @@ In order for DTOne's custom Python packages to be easily installable, we have ou
 To install a package from our package index, use the `pip` tool in the standard way. The only difference is in the `-i` (a.k.a. `--extra-index-url`) argument supplying the above mentioned address and credentials. Example: to install the package `dtone-cool-lib`, use the following command:
 
 ```
-pip install dtone-cool-lib -i https://[username]:[password]@pypi.dtone.xyz/[key]/
+pip install dtone-cool-lib -i https://[username]:[password]@pypi.dtone.xyz/[key]/simple
 ```
 
 #### pip configuration file
@@ -20,7 +20,7 @@ The URL including the username and password can be (and we highly recommend this
 
 ```ini
 [global]
-extra-index-url = https://[username]:[password]@pypi.dtone.xyz/[key]/
+extra-index-url = https://[username]:[password]@pypi.dtone.xyz/[key]/simple
 ```
 
 Then you can omit the `-i` setting in all your `pip` commands and the
@@ -37,7 +37,7 @@ pip install dtone-cool-lib
 If you want to include a DTOne package dependency in `requirements.txt` of your project, include the `--extra-index-url` (or its `-i`) part as a line at the top of the file, as in:
 
 ```
---extra-index-url https://[username]:[password]@pypi.dtone.xyz/[key]/
+--extra-index-url https://[username]:[password]@pypi.dtone.xyz/[key]/simple
 dtone-cool-lib
 ```
 
@@ -56,8 +56,8 @@ setup(
         'dtone-cool-lib' #, ...
     ],
     dependency_links=[
-        'https://[username]:[password]@pypi.dtone.xyz/[key]/
-dtone-cool-lib'
+        # even if your package name has underscores in it, for this link replace them with hyphens
+        'https://[username]:[password]@pypi.dtone.xyz/[key]/simple/dtone-cool-lib'
     ]
     # ...
 )
@@ -79,7 +79,7 @@ verify_ssl = true
 
 [[source]]
 name = "dtone"
-url = "https://[username]:[password]@pypi.dtone.xyz/[key]/simple"     # Note the "simple" part
+url = "https://[username]:[password]@pypi.dtone.xyz/[key]/simple"
 verify_ssl = true
 
 # ... rest of the file
@@ -142,4 +142,4 @@ python setup.py sdist upload -r dtone
 
 ### Fixing a wrongly uploaded package (advanced)
 
-If you upload a package that contains a bug, it is in most cases the best solution to release a patch version and "override" the old one. Direct manipulation should be only left to the management of PyPI itself and to solving issues that breaksecurity. Please do not do it and ask your [DevOps](mailto:infra@dtone.com) team (or in Slack [#acs-fresco-ops](https://app.slack.com/client/TH44CUB2M/CL10LQ1A9) group).
+If you upload a package that contains a bug, it is in most cases the best solution to release a patch version and "override" the old one. Direct manipulation should be only left to the management of PyPI itself and to solving issues that break security. Please do not do it and ask your [DevOps](mailto:infra@dtone.com) team (or in Slack [#acs-fresco-ops](https://app.slack.com/client/TH44CUB2M/CL10LQ1A9) group).
