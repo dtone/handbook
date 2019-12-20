@@ -51,6 +51,7 @@ f5-sphinx-theme
 
 If we would ever want to switch to `hugo`. There are is very nice themes:
 
+  - my current favorite: https://github.com/tract-docs/tract
   - https://github.com/matcornic/hugo-theme-learn/
   - https://github.com/vjeantet/hugo-theme-docdock
   - https://github.com/linode/docs
