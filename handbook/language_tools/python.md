@@ -47,7 +47,7 @@ Note: If you have the pip configuration file setup, installation will work also 
 
 When writing `setup.py` installation scripts in your project, including a dependency from DTone's custom package index can be enabled by the `dependency_links` argument like this:
 
-```
+```python
 from setuptools import setup
 
 setup(
@@ -57,7 +57,7 @@ setup(
     ],
     dependency_links=[
         # even if your package name has underscores in it, for this link replace them with hyphens
-        'https://[username]:[password]@pypi.dtone.xyz/[key]/simple/dtone-cool-lib'
+        'https://[username]:[password]@pypi.dtone.xyz/[key]/simple/dtone-cool-lib/'
     ]
     # ...
 )
@@ -114,14 +114,16 @@ python setup.py sdist upload -r https://[username]:[password]@pypi.dtone.xyz/[ke
 
 ```
 python setup.py sdist
-twine upload --repository-url=https://[username]:[password]@pypi.dtone.xyz/[key]/ dist/dtone-cool-lib-0.0.1.tar.gz
+twine upload --repository-url=https://pypi.dtone.xyz/[key]/ --username [username] --password [password] dist/dtone-cool-lib-0.0.1.tar.gz
 ```
+
+**Note:** Packages using our [common Python CI](#using-a-predefined-ci-file) can use the [auto-publish feature](#auto-publishing-to-our-pypi).
 
 #### .pypirc
 
 Again, you can store the credentials in a file, this time in `$HOME/.pypirc`. Note that this is a different file from what `pip` uses and also the syntax is slightly different. Your file will look roughly like this (if you contribute to more package indices, your file might be longer):
 
-```
+```ini
 [distutils]
 index-servers =
     dtone
@@ -134,7 +136,7 @@ index-servers =
 
 This will allow you to use the alias for your package index:
 
-```
+```bash
 python setup.py sdist upload -r dtone
 
 # or: twine upload dist/dtone-cool-lib-0.0.1.tar.gz -r dtone
@@ -143,3 +145,54 @@ python setup.py sdist upload -r dtone
 ### Fixing a wrongly uploaded package (advanced)
 
 If you upload a package that contains a bug, it is in most cases the best solution to release a patch version and "override" the old one. Direct manipulation should be only left to the management of PyPI itself and to solving issues that break security. Please do not do it and ask your [DevOps](mailto:infra@dtone.com) team (or in Slack [#acs-fresco-ops](https://app.slack.com/client/TH44CUB2M/CL10LQ1A9) group).
+
+## GitLab CI for Python packages
+
+Packages hosted on GitLab can easily opt-in into our [continuous integration setup](https://git.dtone.xyz/ops/ci). To enable or disable GitLab CI/CD Pipelines in your project, you need to:
+
+1. Navigate to `Settings -> General -> Visibility, project features, permissions`.
+2. Expand the `Repository` section.
+3. Enable or disable the `Pipelines` toggle as required.
+
+Then you have to provide a `.gitlab-ci.yml` &ndash; the file that is used by GitLab Runner to manage your project's jobs.
+
+### Using a predefined CI file
+
+You are encouraged to use our [general Python CI pipeline](https://git.dtone.xyz/ops/ci/blob/master/python/.gitlab-ci.yml), a reusable pipeline definition that is supposed to fit the CI needs of most of our python packages. To use it, you need to include it in your project's `.gitlab-ci.yml` as follows:
+
+```yaml
+include:
+    - project: "ops/ci"
+      ref: master
+      file: "/python/.gitlab-ci.yml"
+
+# Optional
+variables:
+    CUSTOM_PROJECT_NAME: "python_module_name"
+```
+
+In order to use this common setup, your project has to:
+
+* have a Pipfile
+* have the repository name equal to the python module name or provide `CUSTOM_PROJECT_NAME` variable
+* use `pytest` for tests
+
+Once you are all set up, the pipeline will be triggered every time a merge request is created or updated and when the `master` branch gets updated.
+
+Your code will then be linted with `pylint` and `flake8`, tested with `pytest` and have its type annotations checked by `mypy`. For more details, see the corresponding [README.md](https://git.dtone.xyz/ops/ci/blob/master/python/README.md).
+
+### Auto-publishing to our PyPI
+
+With the setup mentioned in the previous section, you can simplify the process of publishing your package.
+A package will be published when a tag is created and the tag name matches a regexp `^v\d+\.\d+\.\d+([abc]\d*)?$`, e.g. `v0.0.1`.
+Following conditions are tested during this phase and have to be met in for the auto-publishing to happen:
+
+* `pytest` results have to be green
+* `PYPI_PASSWORD` and `PYPI_USERNAME` variables must be set (ideally through `Settings -> CI/CD -> Variables` with `PYPI_PASSWORD` masked)
+* the package installation must proceed without error
+* the version in tag must be equal to the version in `setup.py`
+* the same package with the same version must not already be present in our PyPI
+
+If there is an error, one can simply delete the tag, fix the issues and try to tag again.
+
+If the package is successfully published a message will be sent to [#pypi](https://app.slack.com/client/TH44CUB2M/CRXEPNK3N) slack channel.
