@@ -13,6 +13,15 @@ Working together
    handbook/values.md
    handbook/sharing.md
 
+Security
+========
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   handbook/basic-security-awareness.md
+
 Producing code
 ==============
 
