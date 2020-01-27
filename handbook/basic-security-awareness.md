@@ -31,7 +31,7 @@ To stay on safe side and minimize the surface to any kind of attacks or data lea
  - **Always encrypt wherever you can encrypt all the connections** you make against the outside world. Do not trust unprotected paths, because there always can be somebody else listening and waiting for your data.
    - **Do not pass the data through the insecure channels** without additional layer of data encryption. This applies especially for the email communication, where one may tend to send the results of his computation as an email attachment.
  - **Prefer [2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication) authentication wherever possible** and make it harder to steal your credentials. 
- - **Use different password for each site**. One rule them all applies even for passwords. By using different password for each you're giving an access to only a single site instead of all of them in case some will steal your credentials.
+ - **Use different password for each site**. One rule them all applies even for passwords. By using different password for each you're giving an access to only a single site instead of all of them in case some will steal your credentials. With a password manager like [LastPass](https://www.lastpass.com/), [1password](https://1password.com/) or for offline lovers [pass](https://www.passwordstore.org/) you don't have to remember any of them and they also solve problem of generating strong passwords and storing them securely.
  - **Use strong passwords doesn't mean you need to put every weird character into it**:
 ![screenshot of weird against strong password](security/strong_password.png)
  - **Never share passwords and never let them lay around in plain text**.
