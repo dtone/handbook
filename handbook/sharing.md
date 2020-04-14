@@ -91,6 +91,8 @@ We are using Slack for semi real-time, simple communication. That means, that
 
 - We tend to use Slack as a type of "social network". There are channels for casual conversations, sharing interesting links etc.
 
+Please read [Slack Etiquette Guide](https://slab.com/blog/slack-etiquette-guide/), which is an excellent overview of the key concepts for sustainable Slack.
+
 ### Working hours at Slack
 
 It is frequently convenient to mention somebody (those `@antonin.kral`). That will mark particular message and typically trigger more aggressive notification being sent to person. Frequently, one don't need to send the notification straight away. E.g. I am mentioning somebody who is already out of the office (maybe she is in different office, or maybe I am working over-time). I don't want her to respond immediately, but I want to mark the message for her...
