@@ -17,7 +17,7 @@ To stay on safe side and minimize the surface to any kind of attacks or data lea
 ### Hardware
 
  - **Omit the usage of devices made by unverified manufacturers** aka cheap Chinese whatever tend to be full of pre-installed malware, that can start sending company data to 3rd parties. [Same applies for example for USB sticks](https://www.bleepingcomputer.com/news/security/heres-a-list-of-29-different-types-of-usb-attacks/) you found or were given.
- - **Always encrypt encrypt your data in your HW**. Especially the hard drives in your work computer. For multi OS installations, it's better to encrypt each OS with it's own key, but you may use HW encryption provided by the manufacturer.
+ - **Always encrypt your data in your HW**. Especially the hard drives in your work computer. For multi-OS installations, it's better to encrypt each OS with it's own key, but you may use HW encryption provided by the manufacturer.
  - **Treat all your devices the same**. Even your iPhone or your Alexa are prone to multiple different kind of attacks, it's always best to use such devices as little as possible for work purposes (the best is never), or use the same security principles as you use for your work computer.
  - **Always wipe your data once you pass your device to someone else**. You're passing your device the service-man, returning borrowed or selling the device - always wipe the data that are present in your device. Should you need to restore the data, make a proper backup.
 
